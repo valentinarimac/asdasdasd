@@ -93,7 +93,6 @@ img {
 }
 
 .header {
-  margin: 0 auto 24px auto;
   cursor: context-menu;
 }
 
@@ -165,6 +164,7 @@ input::placeholder {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 20px;
+  justify-content: center;
 }
 
 .list {
@@ -241,6 +241,7 @@ input[type="checkbox"]:checked {
 
   .header {
     font-size: 34px;
+    margin: 0 auto 24px auto;
   }
 
   .nav-bar {
@@ -258,7 +259,7 @@ input[type="checkbox"]:checked {
   }
 }
 
-@media only screen and (max-width: 3000px) {
+@media only screen and (max-width: 1200px) {
   * {
     font-size: 12px;
   }
@@ -269,6 +270,7 @@ input[type="checkbox"]:checked {
 
   .header {
     font-size: 27px;
+    margin: 0 auto 24px auto;
   }
 
   .list-card {
@@ -278,5 +280,59 @@ input[type="checkbox"]:checked {
 
   .task {
     width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  * {
+    font-size: 16px;
+  }
+
+  .login-register {
+    min-width: 60vw;
+  }
+
+  .header {
+    font-size: 34px;
+    margin: 0 auto 24px auto;
+  }
+
+  .nav-bar {
+    margin-bottom: 3%;
+  }
+
+  input::placeholder {
+    font-size: 11px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  #greeing {
+    font-size: 45px;
+  }
+
+  .list-card {
+    min-width: 15vw;
+    min-height: 27vh;
+    padding: 30px;
+    margin: 12px auto 14px auto;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .list > span {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .task {
+    min-width: 90vw;
+    margin: 7px;
+    padding: 1.5px;
   }
 }
