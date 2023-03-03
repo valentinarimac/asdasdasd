@@ -259,7 +259,7 @@ input[type="checkbox"]:checked {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
   * {
     font-size: 12px;
   }
@@ -283,7 +283,7 @@ input[type="checkbox"]:checked {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1100px) {
   * {
     font-size: 16px;
   }
@@ -314,14 +314,13 @@ input[type="checkbox"]:checked {
   }
 
   #greeing {
-    font-size: 45px;
+    font-size: 50px;
   }
 
   .list-card {
     min-width: 15vw;
     min-height: 27vh;
     padding: 30px;
-    margin: 12px auto 14px auto;
     justify-content: center;
   }
 
