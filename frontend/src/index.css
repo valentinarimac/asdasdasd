@@ -289,7 +289,7 @@ input[type="checkbox"]:checked {
   }
 
   .login-register {
-    min-width: 60vw;
+    width: 25vw;
   }
 
   .header {
@@ -299,6 +299,10 @@ input[type="checkbox"]:checked {
 
   .nav-bar {
     margin-bottom: 3%;
+  }
+
+  input {
+    padding: 8px;
   }
 
   input::placeholder {
@@ -331,8 +335,8 @@ input[type="checkbox"]:checked {
   }
 
   .task {
-    min-width: 90vw;
+    width: 50vw;
     margin: 7px;
-    padding: 1.5px;
+    padding: 2px;
   }
 }
